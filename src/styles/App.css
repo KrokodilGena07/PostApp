@@ -1,0 +1,37 @@
+.LoginPage {
+    height: 100vh;
+}
+
+.LoginForm {
+    width: 25%;
+}
+
+.Loader {
+    height: 35rem;
+    width: 35rem;
+    margin-top: 15%;
+}
+
+.Modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0, 0.5);
+    z-index: 1;
+}
+
+.ModalContent {
+    padding: 25px;
+    background: white;
+    border-radius: 16px;
+    min-width: 250px;
+}
+
+.ModalActive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
